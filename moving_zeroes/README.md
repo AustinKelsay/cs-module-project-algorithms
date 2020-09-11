@@ -13,6 +13,8 @@ Expected output array state: [3, 1, -2, 0, 0]
 Sample input: [4, 2, 1, 5]
 Expected output: 4
 Expected output array state: [4, 2, 1, 5]
+
+
 ```
 
 Can you do this in a single pass through the input array with `O(1)` space?

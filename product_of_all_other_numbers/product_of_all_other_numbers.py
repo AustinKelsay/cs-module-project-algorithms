@@ -4,8 +4,24 @@ Returns: a List of integers
 '''
 def product_of_all_other_numbers(arr):
     # Your code here
+    answer = []
+    pointer = 0
+    while pointer < len(arr):
+        accum = None
+        for x in range(len(arr)):
+            if x == pointer:
+                pass
+            else:
+                if accum == None:
+                    accum = arr[x]
+                else:
+                    accum = accum * arr[x]
 
-    pass
+        answer.append(accum)
+        pointer += 1
+
+    return answer
+
 
 
 if __name__ == '__main__':
